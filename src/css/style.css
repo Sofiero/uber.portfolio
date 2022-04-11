@@ -1,0 +1,1179 @@
+/* line 1, ../../Users/Admin/Desktop/sofi2pr/src/sass/style.sass */
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 1, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+header {
+  position: relative;
+}
+
+/* line 4, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+nav {
+  position: fixed;
+  width: 100%;
+  height: 53px;
+  background: #212121;
+  z-index: 5;
+}
+
+/* line 11, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.hamburger {
+  display: none;
+}
+
+/* line 14, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 70px;
+  margin: 0;
+  list-style: none;
+}
+
+/* line 20, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.menu_link {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+/* line 26, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.menu_item {
+  border-right: 2px dotted #000000;
+  padding-right: 28px;
+}
+
+/* line 29, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.menu_item:last-child {
+  border-right: none;
+}
+
+/* line 34, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.subheader {
+  position: absolute;
+  width: 100%;
+  height: 87px;
+  background: rgba(0, 0, 0, 0.6);
+  mix-blend-mode: normal;
+  margin-top: 53px;
+}
+
+/* line 41, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.subheader_logo {
+  display: block;
+  margin-top: 17px;
+  max-width: 100%;
+}
+
+/* line 45, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.subheader_official {
+  margin-top: 6px;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 13px;
+  align-items: center;
+  opacity: 0.5;
+  color: #FFFFFF;
+}
+
+/* line 53, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.subheader_call {
+  margin-top: 19px;
+  font-weight: 300;
+  font-size: 12px;
+  text-align: right;
+  color: #FFFFFF;
+}
+
+/* line 59, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.subheader_phone {
+  display: block;
+  margin-top: 8px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  text-align: right;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  line-height: 12px;
+}
+
+/* line 69, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.subheader_btn {
+  margin-top: 19px;
+  width: 172px;
+  height: 46px;
+  box-shadow: inset 0px -3px 0 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 4px;
+  background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+/* line 2, ../../Users/Admin/Desktop/sofi2pr/src/sass/_mixins.sass */
+.subheader_btn:hover {
+  background-image: none;
+  background-color: #1eacc7;
+}
+
+/* line 87, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.promo {
+  min-height: 800px;
+  background: url(../img/mainscreen.jpg) center center/cover no-repeat;
+  padding: 150px 0 135px 0;
+}
+
+/* line 91, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.promo_header {
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 700;
+  margin: 0;
+}
+
+/* line 103, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.promo_subheader {
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 700;
+  margin: 0;
+  margin-top: 22px;
+}
+
+/* line 116, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.promo_descr {
+  margin-top: 23px;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+/* line 126, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.promo_btn {
+  display: block;
+  margin: 118px auto 0 auto;
+  width: 259px;
+  height: 63px;
+  box-shadow: inset 0px -4px 0 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 4px;
+  background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+/* line 2, ../../Users/Admin/Desktop/sofi2pr/src/sass/_mixins.sass */
+.promo_btn:hover {
+  background-image: none;
+  background-color: #1eacc7;
+}
+
+/* line 144, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.eight {
+  padding: 71px 0 65px 0;
+}
+
+/* line 147, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.eight_btn {
+  display: block;
+  margin: 79px auto 0 auto;
+  width: 112px;
+  height: 24px;
+  background-color: #000;
+  font-size: 11px;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+/* line 161, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.eight_reas {
+  margin-top: 38px;
+  font-size: 38px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.26;
+  letter-spacing: normal;
+  text-align: center;
+  color: #222;
+}
+
+/* line 172, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.subtitle {
+  margin-top: 19px;
+  font-size: 17px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #222;
+}
+
+/* line 183, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.eight_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+/* line 188, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.eight_round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 26px;
+  width: 113px;
+  height: 113px;
+  background-color: #1eacc7;
+  border-radius: 100%;
+}
+
+/* line 197, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.eight_text {
+  width: 343px;
+}
+
+/* line 199, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.eight_title2 {
+  font-size: 17px;
+  font-weight: normal;
+  color: #1eacc7;
+}
+
+/* line 203, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.eight_text {
+  font-size: 15px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #202020;
+}
+
+/* line 213, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.mobile {
+  min-height: 864px;
+  padding: 48px 0 80px 0;
+  background: url("../img/mobile.png") center center/cover no-repeat;
+}
+
+/* line 217, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.mobile .row {
+  margin-top: 32px;
+}
+
+/* line 219, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.mobile_item {
+  position: relative;
+  width: 320px;
+  height: 280px;
+  margin: 0 auto;
+  margin-bottom: 19px;
+  padding-top: 92px;
+}
+
+/* line 226, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.mobile_item_1 {
+  background: url("../img/pic1.png") center center/cover no-repeat;
+}
+
+/* line 228, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.mobile_item_2 {
+  background: url("../img/pic2.png") center center/cover no-repeat;
+}
+
+/* line 230, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.mobile_item_3 {
+  background: url("../img/pic3.png") center center/cover no-repeat;
+}
+
+/* line 232, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.mobile_item_4 {
+  background: url("../img/pic4.png") center center/cover no-repeat;
+}
+
+/* line 234, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.mobile_item_5 {
+  background: url("../img/pic5.png") center center/cover no-repeat;
+}
+
+/* line 236, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.mobile_item_6 {
+  background: url("../img/pic6.png") center center/cover no-repeat;
+}
+
+/* line 238, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.mobile_item_subtitle {
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+/* line 247, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.mobile_item_plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 35px;
+  left: 50%;
+  transform: translate(-50%);
+  width: 26px;
+  height: 26px;
+  background-color: #000;
+  margin: 0 auto;
+  border-radius: 100%;
+  padding: 6px;
+  cursor: pointer;
+}
+
+/* line 262, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.mobile_item_plus::before {
+  content: '';
+  display: block;
+  width: 14px;
+  height: 2px;
+  background-color: #1eacc7;
+}
+
+/* line 268, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.mobile_item_plus:after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  display: block;
+  height: 14px;
+  width: 2px;
+  background-color: #1eacc7;
+  transition: 0.3s all;
+}
+
+/* line 279, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.mobile_item_plus:hover:before, .mobile_item_plus:hover:after {
+  background-color: #ff5656;
+}
+
+/* line 282, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.car {
+  position: relative;
+  min-height: 896px;
+  padding: 57px 0 138px 0;
+  background: url("../img/mobile.png") center center/cover no-repeat;
+}
+
+/* line 287, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.car .car_img {
+  position: relative;
+  display: block;
+  margin: 56px auto 0 auto;
+  z-index: 2;
+  width: 100%;
+}
+
+/* line 293, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.car .car_text {
+  font-size: 17px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.41;
+  letter-spacing: normal;
+  text-align: center;
+  color: #222;
+}
+
+/* line 302, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.car .car_btn {
+  display: block;
+  position: relative;
+  margin: 79px auto 0 auto;
+  width: 112px;
+  height: 24px;
+  background-color: #fff;
+  font-size: 11px;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #070716;
+  z-index: 2;
+}
+
+/* line 317, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.car .car_descr {
+  position: relative;
+  margin-top: 38px;
+  font-size: 38px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.26;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+/* line 328, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.car .car_subtitle {
+  position: relative;
+  margin-top: 19px;
+  font-size: 17px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+/* line 340, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.car_background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 499px;
+  width: 100%;
+  background-color: #070716;
+}
+
+/* line 349, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.require {
+  padding: 68px 0 84px 0;
+}
+
+/* line 351, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.require_block {
+  margin: 33px 0;
+}
+
+/* line 353, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.require_block_nmb {
+  margin-bottom: 0px;
+}
+
+/* line 355, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.require_title {
+  font-size: 22px;
+  font-weight: normal;
+  color: #1ca8c3;
+}
+
+/* line 359, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.require_list {
+  list-style-type: none;
+  padding-left: 50px;
+  margin-top: 22px;
+}
+
+/* line 363, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.require_list li {
+  position: relative;
+  font-size: 17px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.41;
+  letter-spacing: normal;
+  text-align: left;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+/* line 374, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.require_list li:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: -32px;
+  top: 3px;
+  width: 21px;
+  height: 20px;
+  background: url("../icons/blue.png") center center/cover no-repeat;
+}
+
+/* line 383, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.require_descr {
+  color: #1ca8c3;
+  margin-top: 25px;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+/* line 389, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.require .warning .require_title {
+  color: #ff5656;
+}
+
+/* line 393, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.require .warning .require_list li:before {
+  background: url("../icons/red.png") center center/cover no-repeat;
+}
+
+/* line 396, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.city {
+  min-height: 720px;
+  background: url(../img/footer.jpg) center center/cover no-repeat;
+  padding: 49px 0 49px 0;
+}
+
+/* line 400, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.city_btn {
+  display: block;
+  position: relative;
+  margin: 79px auto 0 auto;
+  width: 76px;
+  height: 24px;
+  background-color: #fff;
+  font-size: 11px;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #070716;
+  z-index: 2;
+}
+
+/* line 415, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.city_text {
+  margin-top: 32px;
+  font-size: 38px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+/* line 424, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.city_descr {
+  margin-top: 20px;
+  font-size: 17px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.24;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+/* line 434, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.city_link {
+  display: block;
+  margin: 0 auto;
+  margin-top: 485px;
+  padding-bottom: 49px;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 4.53;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1fbad6;
+}
+
+/* line 448, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+footer {
+  height: 155px;
+  position: relative;
+}
+
+/* line 451, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+footer .divider {
+  width: 301px;
+  height: 7px;
+  background: #1FBAD6;
+  margin: 0 auto;
+  margin-top: 11px;
+}
+
+/* line 457, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+footer .lang {
+  display: block;
+  font-weight: 400;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #1FBAD6;
+  margin-top: 19px;
+  text-align: center;
+}
+
+/* line 466, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.footer_app {
+  position: absolute;
+  right: 20px;
+  bottom: 86px;
+}
+
+/* line 471, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.footer_menu {
+  display: flex;
+  justify-content: center;
+  padding-top: 32px;
+  margin: 0;
+  list-style: none;
+}
+
+/* line 477, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.footer_menu .footer_link {
+  font-weight: 300;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #070716;
+}
+
+/* line 482, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.footer_menu .footer_item {
+  padding-right: 48px;
+}
+
+/* line 485, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.down_menu {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  margin: 0;
+  list-style: none;
+}
+
+/* line 491, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.down_menu .down_link {
+  font-weight: 300;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #999999;
+}
+
+/* line 496, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.down_menu .down_item {
+  padding-right: 48px;
+}
+
+/* line 498, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.social {
+  position: absolute;
+  left: 23px;
+  margin-top: 40px;
+}
+
+/* line 502, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.social .social_wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 170px;
+}
+
+/* line 506, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.social .social_wrapper .social_round {
+  width: 35px;
+  height: 38.15px;
+  background: #070716;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 514, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.social .social_wrapper .social_img {
+  margin: 0 auto;
+}
+
+/* line 516, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.icon-facebook, .icon-twitter, .icon-instagram, .icon-linkedin {
+  color: white;
+}
+
+/* line 519, ../../Users/Admin/Desktop/sofi2pr/src/sass/_general.sass */
+.xs-visible {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  /* line 3, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .menu_item {
+    padding-right: 20px;
+  }
+  /* line 5, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .menu_link {
+    font-size: 13px;
+  }
+  /* line 8, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .promo_header {
+    font-size: 50px;
+  }
+  /* line 11, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .eight_block {
+    align-items: flex-start;
+  }
+  /* line 13, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .eight_text {
+    width: 300px;
+  }
+  /* line 16, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .mobile_item {
+    width: 290px;
+  }
+  /* line 18, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .mobile_item_subtitle {
+    font-size: 20px;
+  }
+  /* line 20, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .social .social_wrapper .social_round {
+    width: 35px;
+    height: 35.15px;
+  }
+  /* line 24, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .footer_app {
+    right: 1px;
+    bottom: 89px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 30, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .menu_item {
+    padding-right: 8px;
+  }
+  /* line 32, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .menu_link {
+    font-size: 10px;
+  }
+  /* line 36, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .subheader_logo img {
+    width: 100%;
+  }
+  /* line 38, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .subheader_official {
+    font-size: 11px;
+  }
+  /* line 40, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .subheader_phone {
+    font-size: 18px;
+  }
+  /* line 42, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .subheader_btn {
+    margin-top: 21px;
+    height: 40px;
+    width: 100%;
+  }
+  /* line 47, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .promo_header {
+    font-size: 40px;
+  }
+  /* line 49, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .promo_subheader {
+    font-size: 30px;
+  }
+  /* line 52, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .eight_block {
+    flex-direction: column;
+    align-items: center;
+  }
+  /* line 55, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .eight_round {
+    margin-right: 0;
+  }
+  /* line 57, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .eight_text {
+    width: 300px;
+    margin-top: 20px;
+  }
+  /* line 61, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .mobile_item {
+    height: 220px;
+    width: 215px;
+  }
+  /* line 64, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .mobile_item_subtitle {
+    font-size: 15px;
+  }
+  /* line 67, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  footer .footer_app {
+    bottom: 92px;
+  }
+  /* line 69, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  footer .footer_app img {
+    width: 200px;
+  }
+  /* line 71, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  footer .footer_menu .footer_link {
+    font-size: 12px;
+  }
+  /* line 73, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  footer .down_menu .dowm_link {
+    font-size: 10px;
+  }
+  /* line 77, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .social .social_wrapper {
+    width: 150px;
+  }
+  /* line 79, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .social .social_wrapper .social_round {
+    width: 30px;
+    height: 30px;
+  }
+  /* line 83, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .promo_header {
+    font-size: 32px;
+  }
+  /* line 85, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .promo_subheader {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 88, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .menu {
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100vh;
+    padding: 20px 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 0.6s all;
+  }
+  /* line 100, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .menu_active {
+    left: 0;
+  }
+  /* line 102, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .menu_item {
+    padding-right: 0;
+    border: none;
+    margin: 10px 0;
+  }
+  /* line 106, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .menu_link {
+    font-size: 20px;
+  }
+  /* line 108, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .hamburger {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 25px;
+    transform: translate(-50%);
+    width: 26px;
+    height: 12px;
+  }
+  /* line 116, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .hamburger span {
+    display: block;
+    height: 2px;
+    widows: 100%;
+    background-color: #fff;
+    margin-bottom: 2px;
+    transition: 0.5s all;
+  }
+  /* line 124, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .hamburger_active span {
+    margin-bottom: -2px;
+  }
+  /* line 126, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .hamburger_active span:nth-child(1) {
+    transform: translate(3px) rotate(-45deg);
+  }
+  /* line 128, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .hamburger_active span:nth-child(2) {
+    display: none;
+  }
+  /* line 130, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .hamburger_active span:nth-child(3) {
+    transform: translate(3px) rotate(45deg);
+  }
+  /* line 133, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .xs-hidden {
+    display: none;
+  }
+  /* line 135, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .xs-visible {
+    display: block;
+  }
+  /* line 138, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .subheader_phone {
+    display: block;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+  /* line 146, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .subheader_btn {
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  /* line 153, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .promo_header {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 157, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .subheader {
+    height: 60px;
+  }
+  /* line 159, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .subheader_official {
+    display: none;
+  }
+  /* line 161, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .subheader_logo {
+    margin-top: 16px;
+  }
+  /* line 163, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .subheader_phone {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 11px;
+  }
+  /* line 168, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .subheader_btn {
+    width: 110px;
+    height: 22px;
+    font-size: 10px;
+    margin-top: 6px;
+  }
+  /* line 173, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .promo {
+    min-height: 400px;
+    padding: 93px 0 35px 0;
+  }
+  /* line 176, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .promo_descr {
+    display: none;
+  }
+  /* line 178, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .promo_header {
+    font-size: 30px;
+    padding: 0 24px;
+    line-height: 35px;
+    margin-top: 30px;
+  }
+  /* line 183, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .promo_subheader {
+    font-size: 20px;
+    margin-top: 33px;
+    padding: 0 10px;
+    line-height: 30px;
+  }
+  /* line 188, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .promo_btn {
+    width: 210px;
+    height: 50px;
+    margin-top: 72px;
+  }
+  /* line 192, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .menu {
+    width: 85%;
+  }
+  /* line 194, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .menu_item {
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+  }
+  /* line 198, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .menu_link {
+    display: block;
+  }
+  /* line 201, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .eight {
+    padding: 22px 0 36px 0;
+  }
+  /* line 203, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .eight_block {
+    margin-top: 26px;
+  }
+  /* line 205, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .eight_reas {
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 15px;
+    line-height: 16px;
+  }
+  /* line 210, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .eight_reas_round {
+    width: 100px;
+    height: 100px;
+  }
+  /* line 213, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .eight_reas_text {
+    width: 100%;
+    margin-top: 27px;
+  }
+  /* line 216, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .car {
+    min-height: 390px;
+    padding: 25px 0 33px 0;
+  }
+  /* line 219, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .car_descr, .car_subtitle {
+    display: none;
+  }
+  /* line 221, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .car_img {
+    margin-top: 34px;
+  }
+  /* line 223, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .car_btn {
+    margin-top: 24px;
+  }
+  /* line 225, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .car_text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  /* line 233, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .hiden-230 {
+    display: none;
+  }
+  /* line 235, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .require {
+    padding: 25px;
+  }
+  /* line 237, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .require_block {
+    margin: 30px 0 0 0;
+  }
+  /* line 239, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .require_list {
+    padding-left: 30px;
+    margin-top: 5px;
+  }
+  /* line 242, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .require_list li {
+    font-size: 14px;
+  }
+  /* line 244, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .require_descr {
+    font-size: 14px;
+  }
+  /* line 246, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .require_title {
+    margin-top: 30px;
+    font-size: 16px;
+  }
+  /* line 249, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .city {
+    min-height: 360px;
+    padding: 24px 0 30px 0;
+  }
+  /* line 252, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .city_text {
+    font-size: 16px;
+  }
+  /* line 254, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .city_descr {
+    font-size: 14px;
+  }
+  /* line 256, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  footer {
+    padding: 10px 0 29px 0;
+  }
+  /* line 258, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  footer .divider {
+    width: 255px;
+  }
+  /* line 260, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  footer .footer_app {
+    bottom: -85px;
+    transform: translateX(50%);
+    right: 50%;
+  }
+  /* line 264, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .footer_menu {
+    justify-content: space-between;
+    padding-top: 15px;
+  }
+  /* line 267, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .footer_menu .footer_item {
+    padding-right: 0;
+  }
+  /* line 269, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .down_menu {
+    padding-left: 0;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+  }
+  /* line 273, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .down_menu .down_item {
+    padding-right: 5px;
+  }
+  /* line 275, ../../Users/Admin/Desktop/sofi2pr/src/sass/_media.sass */
+  .social {
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 150px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
